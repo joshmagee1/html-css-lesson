@@ -1,4 +1,34 @@
-/* CSS Follows Rulesets */
+/*  CSS Follows Rulesets */
+
+/* 
+
+Ruleset
+
+Selector {
+    declaration
+    property: value;
+    property: value;
+}
+
+*/
+
+/* 
+
+Box Model
+
+Every element has a margin, border, and padding
+
+* Margin -> space from element to its parent
+* Border -> a frame that encompasses an element
+* Padding -> space between element and its children elements
+
+*/
+
+/* * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+} */
 
 * {
     margin: 0;
