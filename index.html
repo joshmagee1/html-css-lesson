@@ -8,7 +8,7 @@
     <title>HTML & CSS Lesson</title>
 </head>
 <body>
-    <nav style="background-color: gold;">
+    <nav style="background-color: rgb(87, 76, 236);">
         <ul class="menu">
             <li class="menu-options"><a href="#html" class="nav-link">HTML</a></li>
             <li class="menu-options"><a href="#css" class="nav-link">CSS</a></li>
@@ -23,14 +23,14 @@
 
     <div id="form-container">
         <form action="">
-            <label for="email">Email</label>
-            <input type="email" 
+            <label class="form-display" for="email">Email</label>
+            <input id="email-label" class="form-display" type="email" 
             placeholder="enter your email"
             autocapitalize="off"
             autocomplete="off"
             autocorrect="off">
-            <label for="message">Message</label>
-            <textarea name="" id="message" cols="40" rows="10"></textarea>
+            <label class="form-display" for="message">Message</label>
+            <textarea class="form-display" name="" id="message-input" cols="40" rows="10"></textarea>
             <button id="submit" class="submit">Submit</button>             
         </form>
     </div>

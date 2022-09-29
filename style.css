@@ -24,17 +24,11 @@ Every element has a margin, border, and padding
 
 */
 
-/* * {
+ /* * {
     margin: 0;
     padding: 0;
     border: 0;
 } */
-
-* {
-    margin: 0;
-    padding: 2;
-    border: 0;
-}
 
 body {
     background-color: #ecf0f1;
@@ -42,9 +36,8 @@ body {
 }
 
 nav {
+    width: 100vw;
     background-color: #2c3e50 !important;
-    margin: 25px;
-    padding: 25px;
 }
 
 .menu-options {
@@ -62,4 +55,12 @@ nav {
 
 .nav-link:active {
     color: red;
+}
+
+.form-display {
+    display: block;
+}
+
+#email-label {
+    width: 40%;
 }
